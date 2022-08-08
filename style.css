@@ -1,0 +1,741 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+	/*font-family: 'Poppins', sans-serif;*/
+	font-family: Source Code Pro,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+	/*font-family: 'Poppins', sans-serif;*/
+	font-family: Source Code Pro,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header{
+	background-color: #5E0101; /*Header background*/
+	width: 100%;
+	position: fixed;
+	z-index: 999; /*To scroll with header on top. Set to highest value*/
+	display:  flex;
+	justify-content: space-between; /*seperate values in header. similarly element combine close to eachother*/
+	align-items: center;
+	padding:  10px 200px; /*Header Spacing from top and left.*/
+	font-family: Source Code Pro,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+}
+
+.logo{
+	text-decoration: none;
+	color: black;
+	font-weight: 900;
+	font-size: 1.5em;
+	transition: 1.3s ease;
+	font-family: Source Code Pro,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+}
+
+
+.logo:hover{
+	color: #CB3737;
+	transform: scale(1.2);
+}
+
+
+.navigation a{
+	color: black;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: 800;
+	display: inline-block;
+	padding-left: 20px;
+	transition: 0.2s ease;
+}
+
+.navigation a:hover{
+	color: #CB3737;
+	transform: scale(1.1);
+}
+
+section{
+	padding: 100px 200px;
+}
+
+.section h3 span{
+	font-family: 'Poppins', sans-serif;
+}
+
+.main{
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	background: url(images/red.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.main h2{
+	color: #F67575;
+	font-size: 1.4em;
+	font-weight: 750;
+
+}
+
+.main h2 span{
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #B85858;
+	font-size: 2.0em;
+	font-weight: 700;
+}
+
+.main h3{
+	color: #F67575;
+	font-size: 1.4em;
+	font-weight: 800;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.main-btn{
+	color: black;
+	background-color: #E45353;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: 650;
+	display: inline-block;
+	padding: 15px 35px;
+	letter-spacing: 1px;
+	border-radius: 30px;
+	margin-bottom: 40px;
+	transition: 0.2s ease;
+}
+
+.main-btn:hover{
+	background-color: #CB3737;
+	transform: scale(1.1, 1.1);
+}
+
+.social-icons a{
+	color: black;
+	background-color: #E45353;
+	text-decoration: none;
+	font-size: 2.5em;
+	font-weight: 1000;
+	display: inline-block;
+	border-radius: 30px;
+	padding: 15px 35px;
+	margin-bottom: 30px;
+	transition: 0.2s ease;
+	margin-right: 10px;
+}
+
+
+.social-icons a:hover{
+	background-color: #CB3737;
+	transform: scale(1.1, 1.1);
+
+}
+
+.cards{
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: url(images/red.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+.title{
+	color: #F67575;
+	margin-bottom: 40px;
+	font-weight: 600;
+	font-size: 1.1em;
+	margin-left: 65px;
+}
+
+.title2{
+	color: #F67575;
+	display: block;
+	white-space: normal;
+	margin-left: 540px;
+}
+
+.titles{
+	color: #F67575;
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+.section a{
+	align-items: center;
+	font-family: Source Code Pro,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+	font-weight: 100;
+}
+
+.akami{
+	color: black;
+	background-color: #E45353;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: 650;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 12.5px 35px;
+	letter-spacing: 1px;
+	margin-bottom: 0px;
+	transition: 0.08s ease;
+
+}
+
+.akami:hover{
+	background-color: #CB3737;
+	transform: scale(1.03);
+
+}
+
+.aot{
+	color: black;
+	background-color: #E45353;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: 650;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 12.5px 35px;
+	letter-spacing: 1px;
+	margin-bottom: 0px;
+	transition: 0.08s ease;
+	
+
+
+}
+
+.aot:hover{
+	background-color: #CB3737;
+	transform: scale(1.03);
+
+}
+
+.blackclover{
+	color: black;
+	background-color: #E45353;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: 650;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 12.5px 35px;
+	letter-spacing: 1px;
+	margin-bottom: 0px;
+	transition: 0.08s ease;
+}
+
+.blackclover:hover{
+	background-color: #CB3737;
+	transform: scale(1.03);
+}
+
+.bongo{
+	color: black;
+	background-color: #E45353;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: 650;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 12.5px 35px;
+	letter-spacing: 1px;
+	margin-bottom: 0px;
+	transition: 0.08s ease;
+}
+
+.bongo:hover{
+	background-color: #CB3737;
+	transform: scale(1.03);
+}
+
+.boruto{
+	color: black;
+	background-color: #E45353;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: 650;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 12.5px 35px;
+	letter-spacing: 1px;
+	margin-bottom: 0px;
+	transition: 0.08s ease;
+
+}
+
+.boruto:hover{
+	background-color: #CB3737;
+	transform: scale(1.03);
+}
+
+
+
+.charlotte{
+	color: black;
+	background-color: #E45353;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: 650;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 12.5px 35px;
+	letter-spacing: 1px;
+	margin-bottom: 0px;
+	transition: 0.08s ease;
+
+}
+
+.charlotte:hover{
+	background-color: #CB3737;
+	transform: scale(1.03);
+
+}
+
+
+
+
+.mydress{
+	color: black;
+	background-color: #E45353;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: 650;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 12.5px 35px;
+	letter-spacing: 1px;
+	margin-bottom: 0px;
+	transition: 0.08s ease;
+}
+.mydress:hover{
+	background-color: #CB3737;
+	transform: scale(1.03);
+}
+
+.death{
+	color: black;
+	background-color: #E45353;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: 650;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 35px;
+	letter-spacing: 1px;
+	transition: 0.2s ease;
+}
+.death:hover{
+	background-color: #CB3737;
+	transform: scale(1.03);
+}
+
+.whitesakami{
+	background-color: #E45353;
+	white-space: normal;
+	transition: 0s ease;
+	display: inline-block;
+	border-radius: 10px;
+	padding-right: 182px;
+	align-items: center;
+	letter-spacing: 1px;
+}
+.whitesakami:hover{
+	background-color: #CB3737;
+	transform: scale(1.03);
+}
+
+
+.sizeakami{
+	display: inline-block;
+	padding-right: 270px;
+}
+
+
+.whitestitle{
+	white-space: normal;
+	transition: 0s ease;
+	display: inline-block;
+	border-radius: 10px;
+	padding-right: 230px;
+	align-items: center
+}
+.sizetitle{
+	display: inline-block;
+	padding-right: 270px;
+}
+
+.titlesclass{
+	color: #E45353;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: 650;
+	display: inline-block;
+	padding: 10px 35px;
+	letter-spacing: 1px;
+	display: inline-block;
+	border-radius: 10px;
+	transition: 0.2s ease;
+	align-items: center;
+
+}
+
+.whitesattack{
+	background-color: #E45353;
+	white-space: normal;
+	transition: 0s ease;
+	display: inline-block;
+	padding-right: 165px;
+}
+
+.sizeattack{
+	display: inline-block;
+	padding-right: 254.5px;
+}
+
+.whitesblack{
+	background-color: #E45353;
+	white-space: normal;
+	transition: 0s ease;
+	display: inline-block;
+	padding-right: 203px;
+}
+
+.sizeblack{
+	display: inline-block;
+	padding-right: 270px;
+}
+
+.whitesbongo{
+	background-color: #E45353;
+	white-space: normal;
+	transition: 0s ease;
+	display: inline-block;
+	padding-right: 149.5px;
+}
+
+.size{
+	display: inline-block;
+	padding-right: 270px;
+}
+.whitesboruto{
+	background-color: #E45353;
+	white-space: normal;
+	transition: 0s ease;
+	display: inline-block;
+	padding-right: 25px;
+}
+.sizeboruto{
+	display: inline-block;
+	padding-right: 254.5px;
+}
+
+.whitescharlotte{
+	background-color: #E45353;
+	white-space: normal;
+	transition: 0s ease;
+	display: inline-block;
+	padding-right: 234px;
+}
+.whitesdress{
+	background-color: #E45353;
+	white-space: normal;
+	transition: 0s ease;
+	display: inline-block;
+	padding-right: 129px;
+}
+.sizedress{
+	display: inline-block;
+	padding-right: 277.5px;
+}
+
+.whitesdeath{
+	background-color: #E45353;
+	white-space: normal;
+	transition: 0s ease;
+	display: inline-block;
+	padding-right: 211px;
+}
+
+.cards a{
+	align-items: center;
+
+}
+
+.note{
+	color: black;
+	background-color: #E45353;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: 650;
+	display: inline-block;
+	padding: 15px 35px;
+	letter-spacing: 1px;
+	transition: 0s ease;
+	margin-left: 500px;
+}
+
+.whitesnote{
+	background-color: #E45353;
+	white-space: normal;
+	transition: 0s ease;
+	display: inline-block;
+	padding-right: 225.5px;
+}
+
+.whitesfranx{
+	background-color: #E45353;
+	white-space: normal;
+	transition: 0s ease;
+	display: inline-block;
+	padding-right: 107.5px;
+}
+.sizefranx{
+	display: inline-block;
+	padding-right: 277.5px;
+}
+
+.whitesdororo{
+	background-color: #E45353;
+	white-space: normal;
+	transition: 0s ease;
+	display: inline-block;
+	padding-right: 268px;
+}
+
+.whitesfull{
+	background-color: #E45353;
+	white-space: normal;
+	transition: 0s ease;
+	display: inline-block;
+	padding-right: 10.5px;
+}
+.sizefull{
+	display: inline-block;
+	padding-right: 267px;
+}
+
+.whiteskami{
+	background-color: #E45353;
+	white-space: normal;
+	transition: 0s ease;
+	display: inline-block;
+	padding-right: 180.5px;
+}
+.whiteskami2{
+	background-color: #E45353;
+	white-space: normal;
+	transition: 0s ease;
+	display: inline-block;
+	padding-right: 180px;
+}
+
+.whiteshellsing{
+	background-color: #E45353;
+	white-space: normal;
+	transition: 0s ease;
+	display: inline-block;
+	padding-right: 149px;
+}
+
+.whiteshory{
+	background-color: #E45353;
+	white-space: normal;
+	transition: 0s ease;
+	display: inline-block;
+	padding-right: 253.5px;
+}
+
+.whiteshunter{
+	background-color: #E45353;
+	white-space: normal;
+	transition: 01s ease;
+	display: inline-block;
+	padding-right: 178.5px;
+}
+.whitesjujutsu{
+	background-color: #E45353;
+	white-space: normal;
+	transition: 0s ease;
+	display: inline-block;
+	padding-right: 188.5px;
+}
+.whitesjuju{
+	background-color: #E45353;
+	white-space: normal;
+	transition: 0s ease;
+	display: inline-block;
+	padding-right: 81px;
+}
+
+.whitesjosee{
+	background-color: #E45353;
+	white-space: normal;
+	transition: 0s ease;
+	display: inline-block;
+	padding-right: 27.5px;
+}
+
+.lists{
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: url(images/rd.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+
+.items-center {
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+
+.akamiinline{
+	color: black;
+	display: inline-block;
+	margin-left: 500px;
+	font-family: Source Code Pro,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+}
+
+.akamicenters:hover{
+	transform: scale(1.03);
+}
+
+#myBtn {
+  display: none;
+  position: fixed; /* Fixed/sticky position */
+  right: 10%; /* Place the button 30px from the right */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  width: 50px;
+  height: 50px;
+  z-index: 99; /* Make sure it does not overlap */
+  border-radius: 50%; /* Rounded corners */
+  background: #E45353;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  color: black;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#myBtn:hover {
+  	background-color: #CB3737;
+  	transform: scale(1.02);
+}
+
+
+
+
+
+
+
+.width{
+	min-height: 100vh;
+}
+
+.whitesI{
+	background-color: #E45353;
+	white-space: normal;
+	transition: 0s ease;
+	display: inline-block;
+	padding-right: 165px;
+}
+.whitesII{
+	background-color: #E45353;
+	white-space: normal;
+	transition: 0s ease;
+	display: inline-block;
+	padding-right: 155px;
+}
+.whitesIII{
+	background-color: #E45353;
+	white-space: normal;
+	transition: 0s ease;
+	display: inline-block;
+	padding-right: 144px;
+}
+.whitesD1{
+	background-color: #E45353;
+	white-space: normal;
+	transition: 0s ease;
+	display: inline-block;
+	padding-right: 112px;
+}
+
+.whitesD2{
+	background-color: #E45353;
+	white-space: normal;
+	transition: 0s ease;
+	display: inline-block;
+	padding-right: 112px;
+}
+
+
+
+
+
+
+@media (max-width: 1023px){
+
+}
+
+
