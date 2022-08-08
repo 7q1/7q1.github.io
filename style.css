@@ -729,13 +729,57 @@ section{
 	padding-right: 112px;
 }
 
+.right{
+	color: black;
+	width: 23.33%;
+	height: 55px;
+	float: right;
+	font-size: 1.2em;
+	text-align: center;
+	padding-top: 12px;
+	text-decoration: none;
+	font-family: Cascadia Code;
+	font-weight: 600;
+	padding-top: 13px;
 
+}
 
+.left{
+	color: black;
+	width: 73.33%;
+	height: 55px;
+	float: left;
+	font-size: 1.2em;
+	text-align: left;
+	padding-top: 12px;
+	text-decoration: none;
+	font-family: Cascadia Code;
+	/* Padding Left so The Title Takes Bigger Space over Size. */
+	padding-left: 40px;
+	font-weight: 600;
+	padding-top: 13px;
+
+}
+
+.yarb{
+	background-color: #E45353;
+	width: 32.33%;
+	border-radius: 10px;
+	transition: 0.1s ease;
+	margin-top: 13px;
+	height: 50px;
+}
+.yarb:hover{
+	color: #CB3737;
+	transform: scale(1.01);
+}
 
 
 
 @media (max-width: 1023px){
-
+	.yarb{
+		width: 130%;
+	}
 }
 
 
