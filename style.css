@@ -189,26 +189,7 @@ section{
 	background-position: center;
 	background-attachment: fixed;
 
-}
-.title{
-	color: #F67575;
-	margin-bottom: 40px;
-	font-weight: 600;
-	font-size: 1.1em;
-	margin-left: 65px;
-}
 
-.title2{
-	color: #F67575;
-	display: block;
-	white-space: normal;
-	margin-left: 540px;
-}
-
-.titles{
-	color: #F67575;
-	display: flex;
-	flex-direction: row;
 }
 
 
@@ -219,445 +200,9 @@ section{
 	font-weight: 100;
 }
 
-.akami{
-	color: black;
-	background-color: #E45353;
-	text-decoration: none;
-	font-size: 1.1em;
-	font-weight: 650;
-	display: inline-block;
-	border-radius: 10px;
-	padding: 12.5px 35px;
-	letter-spacing: 1px;
-	margin-bottom: 0px;
-	transition: 0.08s ease;
-
-}
-
-.akami:hover{
-	background-color: #CB3737;
-	transform: scale(1.03);
-
-}
-
-.aot{
-	color: black;
-	background-color: #E45353;
-	text-decoration: none;
-	font-size: 1.1em;
-	font-weight: 650;
-	display: inline-block;
-	border-radius: 10px;
-	padding: 12.5px 35px;
-	letter-spacing: 1px;
-	margin-bottom: 0px;
-	transition: 0.08s ease;
-	
-
-
-}
-
-.aot:hover{
-	background-color: #CB3737;
-	transform: scale(1.03);
-
-}
-
-.blackclover{
-	color: black;
-	background-color: #E45353;
-	text-decoration: none;
-	font-size: 1.1em;
-	font-weight: 650;
-	display: inline-block;
-	border-radius: 10px;
-	padding: 12.5px 35px;
-	letter-spacing: 1px;
-	margin-bottom: 0px;
-	transition: 0.08s ease;
-}
-
-.blackclover:hover{
-	background-color: #CB3737;
-	transform: scale(1.03);
-}
-
-.bongo{
-	color: black;
-	background-color: #E45353;
-	text-decoration: none;
-	font-size: 1.1em;
-	font-weight: 650;
-	display: inline-block;
-	border-radius: 10px;
-	padding: 12.5px 35px;
-	letter-spacing: 1px;
-	margin-bottom: 0px;
-	transition: 0.08s ease;
-}
-
-.bongo:hover{
-	background-color: #CB3737;
-	transform: scale(1.03);
-}
-
-.boruto{
-	color: black;
-	background-color: #E45353;
-	text-decoration: none;
-	font-size: 1.1em;
-	font-weight: 650;
-	display: inline-block;
-	border-radius: 10px;
-	padding: 12.5px 35px;
-	letter-spacing: 1px;
-	margin-bottom: 0px;
-	transition: 0.08s ease;
-
-}
-
-.boruto:hover{
-	background-color: #CB3737;
-	transform: scale(1.03);
-}
 
 
 
-.charlotte{
-	color: black;
-	background-color: #E45353;
-	text-decoration: none;
-	font-size: 1.1em;
-	font-weight: 650;
-	display: inline-block;
-	border-radius: 10px;
-	padding: 12.5px 35px;
-	letter-spacing: 1px;
-	margin-bottom: 0px;
-	transition: 0.08s ease;
-
-}
-
-.charlotte:hover{
-	background-color: #CB3737;
-	transform: scale(1.03);
-
-}
-
-
-
-
-.mydress{
-	color: black;
-	background-color: #E45353;
-	text-decoration: none;
-	font-size: 1.1em;
-	font-weight: 650;
-	display: inline-block;
-	border-radius: 10px;
-	padding: 12.5px 35px;
-	letter-spacing: 1px;
-	margin-bottom: 0px;
-	transition: 0.08s ease;
-}
-.mydress:hover{
-	background-color: #CB3737;
-	transform: scale(1.03);
-}
-
-.death{
-	color: black;
-	background-color: #E45353;
-	text-decoration: none;
-	font-size: 1.1em;
-	font-weight: 650;
-	display: inline-block;
-	border-radius: 10px;
-	padding: 15px 35px;
-	letter-spacing: 1px;
-	transition: 0.2s ease;
-}
-.death:hover{
-	background-color: #CB3737;
-	transform: scale(1.03);
-}
-
-.whitesakami{
-	background-color: #E45353;
-	white-space: normal;
-	transition: 0s ease;
-	display: inline-block;
-	border-radius: 10px;
-	padding-right: 182px;
-	align-items: center;
-	letter-spacing: 1px;
-}
-.whitesakami:hover{
-	background-color: #CB3737;
-	transform: scale(1.03);
-}
-
-
-.sizeakami{
-	display: inline-block;
-	padding-right: 270px;
-}
-
-
-.whitestitle{
-	white-space: normal;
-	transition: 0s ease;
-	display: inline-block;
-	border-radius: 10px;
-	padding-right: 230px;
-	align-items: center
-}
-.sizetitle{
-	display: inline-block;
-	padding-right: 270px;
-}
-
-.titlesclass{
-	color: #E45353;
-	text-decoration: none;
-	font-size: 1.1em;
-	font-weight: 650;
-	display: inline-block;
-	padding: 10px 35px;
-	letter-spacing: 1px;
-	display: inline-block;
-	border-radius: 10px;
-	transition: 0.2s ease;
-	align-items: center;
-
-}
-
-.whitesattack{
-	background-color: #E45353;
-	white-space: normal;
-	transition: 0s ease;
-	display: inline-block;
-	padding-right: 165px;
-}
-
-.sizeattack{
-	display: inline-block;
-	padding-right: 254.5px;
-}
-
-.whitesblack{
-	background-color: #E45353;
-	white-space: normal;
-	transition: 0s ease;
-	display: inline-block;
-	padding-right: 203px;
-}
-
-.sizeblack{
-	display: inline-block;
-	padding-right: 270px;
-}
-
-.whitesbongo{
-	background-color: #E45353;
-	white-space: normal;
-	transition: 0s ease;
-	display: inline-block;
-	padding-right: 149.5px;
-}
-
-.size{
-	display: inline-block;
-	padding-right: 270px;
-}
-.whitesboruto{
-	background-color: #E45353;
-	white-space: normal;
-	transition: 0s ease;
-	display: inline-block;
-	padding-right: 25px;
-}
-.sizeboruto{
-	display: inline-block;
-	padding-right: 254.5px;
-}
-
-.whitescharlotte{
-	background-color: #E45353;
-	white-space: normal;
-	transition: 0s ease;
-	display: inline-block;
-	padding-right: 234px;
-}
-.whitesdress{
-	background-color: #E45353;
-	white-space: normal;
-	transition: 0s ease;
-	display: inline-block;
-	padding-right: 129px;
-}
-.sizedress{
-	display: inline-block;
-	padding-right: 277.5px;
-}
-
-.whitesdeath{
-	background-color: #E45353;
-	white-space: normal;
-	transition: 0s ease;
-	display: inline-block;
-	padding-right: 211px;
-}
-
-.cards a{
-	align-items: center;
-
-}
-
-.note{
-	color: black;
-	background-color: #E45353;
-	text-decoration: none;
-	font-size: 1.1em;
-	font-weight: 650;
-	display: inline-block;
-	padding: 15px 35px;
-	letter-spacing: 1px;
-	transition: 0s ease;
-	margin-left: 500px;
-}
-
-.whitesnote{
-	background-color: #E45353;
-	white-space: normal;
-	transition: 0s ease;
-	display: inline-block;
-	padding-right: 225.5px;
-}
-
-.whitesfranx{
-	background-color: #E45353;
-	white-space: normal;
-	transition: 0s ease;
-	display: inline-block;
-	padding-right: 107.5px;
-}
-.sizefranx{
-	display: inline-block;
-	padding-right: 277.5px;
-}
-
-.whitesdororo{
-	background-color: #E45353;
-	white-space: normal;
-	transition: 0s ease;
-	display: inline-block;
-	padding-right: 268px;
-}
-
-.whitesfull{
-	background-color: #E45353;
-	white-space: normal;
-	transition: 0s ease;
-	display: inline-block;
-	padding-right: 10.5px;
-}
-.sizefull{
-	display: inline-block;
-	padding-right: 267px;
-}
-
-.whiteskami{
-	background-color: #E45353;
-	white-space: normal;
-	transition: 0s ease;
-	display: inline-block;
-	padding-right: 180.5px;
-}
-.whiteskami2{
-	background-color: #E45353;
-	white-space: normal;
-	transition: 0s ease;
-	display: inline-block;
-	padding-right: 180px;
-}
-
-.whiteshellsing{
-	background-color: #E45353;
-	white-space: normal;
-	transition: 0s ease;
-	display: inline-block;
-	padding-right: 149px;
-}
-
-.whiteshory{
-	background-color: #E45353;
-	white-space: normal;
-	transition: 0s ease;
-	display: inline-block;
-	padding-right: 253.5px;
-}
-
-.whiteshunter{
-	background-color: #E45353;
-	white-space: normal;
-	transition: 01s ease;
-	display: inline-block;
-	padding-right: 178.5px;
-}
-.whitesjujutsu{
-	background-color: #E45353;
-	white-space: normal;
-	transition: 0s ease;
-	display: inline-block;
-	padding-right: 188.5px;
-}
-.whitesjuju{
-	background-color: #E45353;
-	white-space: normal;
-	transition: 0s ease;
-	display: inline-block;
-	padding-right: 81px;
-}
-
-.whitesjosee{
-	background-color: #E45353;
-	white-space: normal;
-	transition: 0s ease;
-	display: inline-block;
-	padding-right: 27.5px;
-}
-
-.lists{
-	width: 100%;
-	min-height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	background: url(images/rd.jpg) no-repeat;
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-}
-
-
-.items-center {
-    -webkit-box-align: center;
-    align-items: center;
-}
-
-
-.akamiinline{
-	color: black;
-	display: inline-block;
-	margin-left: 500px;
-	font-family: Source Code Pro,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
-}
-
-.akamicenters:hover{
-	transform: scale(1.03);
-}
 
 #myBtn {
   display: none;
@@ -666,7 +211,7 @@ section{
   bottom: 20px; /* Place the button at the bottom of the page */
   width: 50px;
   height: 50px;
-  z-index: 99; /* Make sure it does not overlap */
+  z-index: 999; /* Make sure it does not overlap */
   border-radius: 50%; /* Rounded corners */
   background: #E45353;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
@@ -688,46 +233,7 @@ section{
 
 
 
-.width{
-	min-height: 100vh;
-}
 
-.whitesI{
-	background-color: #E45353;
-	white-space: normal;
-	transition: 0s ease;
-	display: inline-block;
-	padding-right: 165px;
-}
-.whitesII{
-	background-color: #E45353;
-	white-space: normal;
-	transition: 0s ease;
-	display: inline-block;
-	padding-right: 155px;
-}
-.whitesIII{
-	background-color: #E45353;
-	white-space: normal;
-	transition: 0s ease;
-	display: inline-block;
-	padding-right: 144px;
-}
-.whitesD1{
-	background-color: #E45353;
-	white-space: normal;
-	transition: 0s ease;
-	display: inline-block;
-	padding-right: 112px;
-}
-
-.whitesD2{
-	background-color: #E45353;
-	white-space: normal;
-	transition: 0s ease;
-	display: inline-block;
-	padding-right: 112px;
-}
 
 .right{
 	color: black;
@@ -738,7 +244,6 @@ section{
 	text-align: center;
 	padding-top: 12px;
 	text-decoration: none;
-	font-family: Cascadia Code;
 	font-weight: 600;
 	padding-top: 13px;
 
@@ -753,7 +258,6 @@ section{
 	text-align: left;
 	padding-top: 12px;
 	text-decoration: none;
-	font-family: Cascadia Code;
 	/* Padding Left so The Title Takes Bigger Space over Size. */
 	padding-left: 40px;
 	font-weight: 600;
@@ -772,14 +276,54 @@ section{
 .yarb:hover{
 	color: #CB3737;
 	transform: scale(1.01);
+	background-color: #CB3737;
 }
 
 
 
 @media (max-width: 1023px){
+	/*   Holders. */
 	.yarb{
-		width: 130%;
+		width: 140%;
+		margin-top: 20px;
+		height: 63px;
 	}
+	.left{
+		font-size: 1.5rem;
+		padding-top: 15px;
+	}
+	.right{
+		font-size: 1.5rem;
+		padding-top: 15px;
+
+	}
+
+	/* Logos headers. */
+	header{
+		padding-top: 30px;
+		padding-bottom: 30px;
+		padding-left: 100px;
+		width: 115%;
+	}
+	.logo{
+		font-size: 2.4rem;
+	}
+	.navigation a{
+		font-size: 1.7rem;
+	}
+
+	/* Main. */
+	.main{
+		font-size: 1.3rem;
+		padding-left: 50px;
+	}
+	#myBtn{
+		height: 80px;
+		width: 80px;
+		bottom: 100px;
+	}
+
+
 }
 
 
