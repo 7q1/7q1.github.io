@@ -67,14 +67,12 @@ header{
 	color: black;
 	font-weight: 900;
 	font-size: 1.5em;
-	transition: 1.3s ease;
 	font-family: Source Code Pro,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
 }
 
 
 .logo:hover{
 	color: #CB3737;
-	transform: scale(1.2);
 }
 
 
@@ -85,12 +83,10 @@ header{
 	font-weight: 800;
 	display: inline-block;
 	padding-left: 20px;
-	transition: 0.2s ease;
 }
 
 .navigation a:hover{
 	color: #CB3737;
-	transform: scale(1.1);
 }
 
 section{
@@ -109,7 +105,6 @@ section{
 	background: url(images/red.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
 }
 
 .main h2{
@@ -146,19 +141,18 @@ section{
 	display: inline-block;
 	padding: 15px 35px;
 	letter-spacing: 1px;
-	border-radius: 30px;
+	border-radius: 10px;
 	margin-bottom: 40px;
-	transition: 0.2s ease;
+	width: 100%;
+	text-align: center;
 }
 
 .main-btn:hover{
 	background-color: #CB3737;
-	transform: scale(1.1, 1.1);
 }
 
 .social-icons a{
-	color: black;
-	background-color: #E45353;
+	color: #CB3737;
 	text-decoration: none;
 	font-size: 2.5em;
 	font-weight: 1000;
@@ -166,28 +160,27 @@ section{
 	border-radius: 30px;
 	padding: 15px 35px;
 	margin-bottom: 30px;
-	transition: 0.2s ease;
+	transition: 0.1s ease;
 	margin-right: 10px;
 }
 
 
 .social-icons a:hover{
-	background-color: #CB3737;
+	background-color: black;
 	transform: scale(1.1, 1.1);
 
 }
 
-.cards{
+.animes{
 	width: 100%;
 	min-height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background: url(images/red.jpg) no-repeat;
+	background: url(images/mask.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
 
 
 }
@@ -279,6 +272,70 @@ section{
 	background-color: #CB3737;
 }
 
+.scroll-down-right{
+	color: #CB3737;
+	position: absolute;
+	right: 1%;
+	bottom: 15%;
+	font-size: 3rem;
+	animation: scroll-down-right 2s infinite;
+}
+
+.scroll-text-right{
+	color: #CB3737;
+	position: absolute;
+	right: -0.4%;
+	bottom: 23%;
+	font-size: 1rem;
+	transform: rotate(90deg);
+	animation: scroll-text-right 2s infinite;
+}
+
+.scroll-down-left{
+	color: #CB3737;
+	position: absolute;
+	left: 1%;
+	bottom: 15%;
+	font-size: 3rem;
+	width: 1%;
+	animation: scroll-down-left 2s infinite;
+}
+
+.scroll-text-left{
+	color: #CB3737;
+	position: absolute;
+	left: -0.4%;
+	bottom: 23%;
+	font-size: 1rem;
+	transform: rotate(270deg);
+	animation: scroll-text-left 2s infinite;
+}
+
+
+@keyframes scroll-down-right {
+	0% {bottom: 15%;}
+	50% {bottom: 19%;}
+	100% {bottom: 15%;}
+}
+@keyframes scroll-text-right {
+	0% {bottom: 23%;}
+	50% {bottom: 27%;}
+	100% {bottom: 23%;}
+}
+@keyframes scroll-down-left {
+	0% {bottom: 15%;}
+	50% {bottom: 19%;}
+	100% {bottom: 15%;}
+}
+@keyframes scroll-text-left {
+	0% {bottom: 23%;}
+	50% {bottom: 27%;}
+	100% {bottom: 23%;}
+}
+.scroll-btn{
+	font-size: 1.4rem;
+}
+
 
 
 @media (max-width: 1023px){
@@ -321,6 +378,49 @@ section{
 		height: 80px;
 		width: 80px;
 		bottom: 100px;
+	}
+
+	/* Scroll's Animations */
+	@keyframes scroll-down {
+		0% {top: 88%;}
+		50% {top: 93%;}
+		100% {top: 88%;}
+	}
+	@keyframes scroll-down-text {
+		0% {top: 81%;}
+		50% {top: 86%;}
+		100% {top: 81%;}
+	}
+
+
+	.scroll-down-left{
+		font-size: 5rem;
+		left: 2%;
+		top: 88%;
+		animation: scroll-down 2.3s infinite;
+	}
+	.scroll-text-left{
+		font-size: 1.7rem;
+		left: -6%;
+		top: 81%;
+		animation: scroll-down-text 2.3s infinite;
+	}
+
+	.scroll-down-right{
+		font-size: 5rem;
+		right: 2%;
+		top: 88%;
+		animation: scroll-down 2.3s infinite;
+	}
+	.scroll-text-right{
+		font-size: 1.7rem;
+		right: -6.5%;
+		top: 81%;
+		animation: scroll-down-text 2.3s infinite;
+
+	}
+	.scroll-btn{
+		font-size: 2rem;
 	}
 
 
