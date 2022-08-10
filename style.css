@@ -425,5 +425,9 @@ section{
 
 
 }
-
+@media (min-width: 1023px){
+	.yarb{
+		width: 88%;
+	}
+}
 
