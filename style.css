@@ -1,49 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 *{
-	/*font-family: 'Poppins', sans-serif;*/
-	font-family: Source Code Pro,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+	font-family: 'Poppins', sans-serif;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 }
-
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-
-*{
-	/*font-family: 'Poppins', sans-serif;*/
-	font-family: Source Code Pro,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	scroll-behavior: smooth;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -51,7 +14,7 @@
 
 
 header{
-	background-color: #5E0101; /*Header background*/
+	background-color: #3b0468; /*Header background*/
 	width: 100%;
 	position: fixed;
 	z-index: 999; /*To scroll with header on top. Set to highest value*/
@@ -59,7 +22,6 @@ header{
 	justify-content: space-between; /*seperate values in header. similarly element combine close to eachother*/
 	align-items: center;
 	padding:  10px 200px; /*Header Spacing from top and left.*/
-	font-family: Source Code Pro,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
 }
 
 .logo{
@@ -83,6 +45,8 @@ header{
 	font-weight: 800;
 	display: inline-block;
 	padding-left: 20px;
+	font-family: Source Code Pro,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+
 }
 
 .navigation a:hover{
@@ -108,7 +72,7 @@ section{
 }
 
 .main h2{
-	color: #F67575;
+	color: #8a58db;
 	font-size: 1.4em;
 	font-weight: 750;
 
@@ -118,13 +82,13 @@ section{
 	display: inline-block;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	color: #B85858;
+	color: #52406e;
 	font-size: 2.0em;
 	font-weight: 700;
 }
 
 .main h3{
-	color: #F67575;
+	color: #8a58db;
 	font-size: 1.4em;
 	font-weight: 800;
 	letter-spacing: 1px;
@@ -133,8 +97,9 @@ section{
 }
 
 .main-btn{
-	color: black;
-	background-color: #E45353;
+	color: #560dcd;
+	border: 1px solid #560dcd;
+	box-shadow: 0 0 5px #560dcd;
 	text-decoration: none;
 	font-size: 1.1em;
 	font-weight: 650;
@@ -147,12 +112,9 @@ section{
 	text-align: center;
 }
 
-.main-btn:hover{
-	background-color: #CB3737;
-}
 
 .social-icons a{
-	color: #CB3737;
+	color: #560dcd;
 	text-decoration: none;
 	font-size: 2.5em;
 	font-weight: 1000;
@@ -166,8 +128,8 @@ section{
 
 
 .social-icons a:hover{
-	background-color: black;
 	transform: scale(1.1, 1.1);
+	box-shadow: 0 0 10px #560dcd;
 
 }
 
@@ -181,8 +143,6 @@ section{
 	background: url(images/mask.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
-
-
 }
 
 
@@ -206,7 +166,7 @@ section{
   height: 50px;
   z-index: 999; /* Make sure it does not overlap */
   border-radius: 50%; /* Rounded corners */
-  background: #E45353;
+  background: #7652ab;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   color: black;
   border: none;
@@ -216,7 +176,7 @@ section{
 }
 
 #myBtn:hover {
-  	background-color: #CB3737;
+  	background-color: #463066;
   	transform: scale(1.02);
 }
 
@@ -239,6 +199,7 @@ section{
 	text-decoration: none;
 	font-weight: 600;
 	padding-top: 13px;
+	font-family: Source Code Pro,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
 
 }
 
@@ -255,21 +216,21 @@ section{
 	padding-left: 40px;
 	font-weight: 600;
 	padding-top: 13px;
+	font-family: Source Code Pro,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
 
 }
 
 .yarb{
-	background-color: #E45353;
+	background-color: #7652ab;
 	width: 32.33%;
 	border-radius: 10px;
-	transition: 0.1s ease;
+	transition: 0.05s ease;
 	margin-top: 13px;
 	height: 50px;
 }
 .yarb:hover{
-	color: #CB3737;
 	transform: scale(1.01);
-	background-color: #CB3737;
+	background-color: #463066;
 }
 
 .scroll-down-right{
@@ -279,6 +240,7 @@ section{
 	bottom: 15%;
 	font-size: 3rem;
 	animation: scroll-down-right 2s infinite;
+	display: none;
 }
 
 .scroll-text-right{
@@ -289,6 +251,8 @@ section{
 	font-size: 1rem;
 	transform: rotate(90deg);
 	animation: scroll-text-right 2s infinite;
+	display: none;
+
 }
 
 .scroll-down-left{
@@ -299,6 +263,8 @@ section{
 	font-size: 3rem;
 	width: 1%;
 	animation: scroll-down-left 2s infinite;
+	display: none;
+
 }
 
 .scroll-text-left{
@@ -309,6 +275,46 @@ section{
 	font-size: 1rem;
 	transform: rotate(270deg);
 	animation: scroll-text-left 2s infinite;
+	display: none;
+
+}
+
+.filename{
+	color: #ab7bf2;
+	width: 73.33%;
+	height: 55px;
+	float: left;
+	font-size: 1.2em;
+	text-align: left;
+	padding-top: 12px;
+	text-decoration: none;
+	/* Padding Left so The Title Takes Bigger Space over Size. */
+	padding-left: 40px;
+	font-weight: 600;
+	padding-top: 13px;
+	font-family: Source Code Pro,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+}
+.filesize{
+	color: #ab7bf2;
+	width: 23.33%;
+	height: 55px;
+	float: right;
+	font-size: 1.2em;
+	text-align: center;
+	padding-top: 12px;
+	text-decoration: none;
+	font-weight: 600;
+	padding-top: 13px;
+	font-family: Source Code Pro,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+}
+
+.infHolder{
+	background-color: black;
+	width: 32.33%;
+	border-radius: 10px;
+	transition: 0.1s ease;
+	margin-top: 13px;
+	height: 50px;
 }
 
 
@@ -345,6 +351,11 @@ section{
 		margin-top: 20px;
 		height: 63px;
 	}
+	.infHolder{
+		width: 140%;
+		margin-top: 20px;
+		height: 63px;
+	}
 	.left{
 		font-size: 1.5rem;
 		padding-top: 15px;
@@ -372,7 +383,7 @@ section{
 	/* Main. */
 	.main{
 		font-size: 1.3rem;
-		padding-left: 50px;
+		padding-left: 20%;
 	}
 	#myBtn{
 		height: 80px;
@@ -398,12 +409,14 @@ section{
 		left: 2%;
 		top: 88%;
 		animation: scroll-down 2.3s infinite;
+		display: block;
 	}
 	.scroll-text-left{
 		font-size: 1.7rem;
 		left: -6%;
 		top: 81%;
 		animation: scroll-down-text 2.3s infinite;
+		display: block;
 	}
 
 	.scroll-down-right{
@@ -411,12 +424,14 @@ section{
 		right: 2%;
 		top: 88%;
 		animation: scroll-down 2.3s infinite;
+		display: block;
 	}
 	.scroll-text-right{
 		font-size: 1.7rem;
 		right: -6.5%;
 		top: 81%;
 		animation: scroll-down-text 2.3s infinite;
+		display: block;
 
 	}
 	.scroll-btn{
@@ -425,9 +440,37 @@ section{
 
 
 }
-@media (min-width: 1023px){
+@media (min-width: 1023px) and (max-width: 1350px) {
 	.yarb{
-		width: 88%;
+		width: 90%;
+	}
+	.infHolder{
+		width: 90%;
 	}
 }
+@media (min-width: 1350px) and (max-width: 1650px) {
+	.yarb{
+		width: 70%;
+	}
+	.infHolder{
+		width: 70%;
+	}
+}
+@media (min-width: 1650px) and (max-width: 1900px){
+	.yarb{
+		width: 60%;
+	}
+	.infHolder{
+		width: 60%;
+	}
+}
+@media (min-width: 1900px){
+	.yarb{
+		width: 40%;
+	}
+	.infHolder{
+		width: 40%;
+	}
+}
+
 
