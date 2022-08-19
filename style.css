@@ -26,7 +26,7 @@ header{
 
 .logo{
 	text-decoration: none;
-	color: black;
+	color: #a285cd;
 	font-weight: 900;
 	font-size: 1.5em;
 	font-family: Source Code Pro,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
@@ -34,12 +34,12 @@ header{
 
 
 .logo:hover{
-	color: #CB3737;
+	color: #000000;
 }
 
 
 .navigation a{
-	color: black;
+	color: #a285cd;
 	text-decoration: none;
 	font-size: 1.1em;
 	font-weight: 800;
@@ -50,7 +50,7 @@ header{
 }
 
 .navigation a:hover{
-	color: #CB3737;
+	color: #000000;
 }
 
 section{
@@ -68,6 +68,7 @@ section{
 	align-items: center;
 	background: url(images/red.jpg) no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 	background-position: center;
 }
 
@@ -97,8 +98,8 @@ section{
 }
 
 .main-btn{
-	color: #560dcd;
-	border: 1px solid #560dcd;
+	color: #7e2cdb;
+	border: 0.5px solid #560dcd;
 	box-shadow: 0 0 5px #560dcd;
 	text-decoration: none;
 	font-size: 1.1em;
@@ -114,7 +115,7 @@ section{
 
 
 .social-icons a{
-	color: #560dcd;
+	color: #7e2cdb;
 	text-decoration: none;
 	font-size: 2.5em;
 	font-weight: 1000;
@@ -129,7 +130,7 @@ section{
 
 .social-icons a:hover{
 	transform: scale(1.1, 1.1);
-	box-shadow: 0 0 10px #560dcd;
+	box-shadow: 0 0 5px #560dcd;
 
 }
 
@@ -141,6 +142,7 @@ section{
 	align-items: center;
 	flex-direction: column;
 	background: url(images/mask.jpg) no-repeat;
+	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
 }
@@ -166,7 +168,7 @@ section{
   height: 50px;
   z-index: 999; /* Make sure it does not overlap */
   border-radius: 50%; /* Rounded corners */
-  background: #7652ab;
+  background: #a285cd;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   color: black;
   border: none;
@@ -176,7 +178,7 @@ section{
 }
 
 #myBtn:hover {
-  	background-color: #463066;
+  	background-color: #78609b;
   	transform: scale(1.02);
 }
 
@@ -234,7 +236,7 @@ section{
 }
 
 .scroll-down-right{
-	color: #CB3737;
+	color: #8f196d;
 	position: absolute;
 	right: 1%;
 	bottom: 15%;
@@ -244,7 +246,7 @@ section{
 }
 
 .scroll-text-right{
-	color: #CB3737;
+	color: #8f196d;
 	position: absolute;
 	right: -0.4%;
 	bottom: 23%;
@@ -256,7 +258,7 @@ section{
 }
 
 .scroll-down-left{
-	color: #CB3737;
+	color: #8f196d;
 	position: absolute;
 	left: 1%;
 	bottom: 15%;
@@ -268,7 +270,7 @@ section{
 }
 
 .scroll-text-left{
-	color: #CB3737;
+	color: #8f196d;
 	position: absolute;
 	left: -0.4%;
 	bottom: 23%;
