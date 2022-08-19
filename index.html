@@ -12,6 +12,13 @@
 
 
 <body>
+	<div style="display: none;" id="hideAll">&nbsp</div>
+	<script type="text/javascript">
+		document.getElementById("hideAll").style.display = "block";
+		window.onload = function(){
+			document.getElementById("hideAll").style.display = "none";
+		}
+	</script>
 
 	
 
@@ -68,7 +75,7 @@
 
 	<section class="animes" id="animes">
 
-		<button onclick="topFunction()" id="myBtn" title="Scroll to top"><i class="fa-solid fa-arrow-up scroll-btn"></i></button>
+		<a href="#aaa"> <button onclick="topFunction()" id="myBtn" title="Scroll to top"><i class="fa-solid fa-arrow-up scroll-btn"></i></button></a>
 		<script type="text/javascript">
 			mybutton = document.getElementById("myBtn");
 
