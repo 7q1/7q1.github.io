@@ -19,8 +19,10 @@
 	z-index: 99; /* Higher than anything else in the document */
 
 }
-
-
+::selection{
+	color: #000000;
+	background-color: #560dcd;
+}
 
 
 
@@ -97,6 +99,7 @@ section{
 	color: #52406e;
 	font-size: 2.0em;
 	font-weight: 700;
+	box-shadow: 0 5px #52406e;
 }
 
 .main h3{
@@ -124,14 +127,12 @@ section{
 	text-align: center;
 }
 
-
 .social-icons a{
 	color: #7e2cdb;
 	text-decoration: none;
 	font-size: 2.5em;
 	font-weight: 1000;
 	display: inline-block;
-	border-radius: 30px;
 	padding: 15px 35px;
 	margin-bottom: 30px;
 	transition: 0.1s ease;
@@ -142,6 +143,7 @@ section{
 .social-icons a:hover{
 	transform: scale(1.1, 1.1);
 	box-shadow: 0 0 5px #560dcd;
+	border-radius: 10px;
 
 }
 
@@ -230,20 +232,19 @@ section{
 	font-weight: 600;
 	padding-top: 13px;
 	font-family: Source Code Pro,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
-
 }
+
+
 
 .yarb{
 	background-color: #7652ab;
 	width: 32.33%;
 	border-radius: 10px;
-	transition: 0.05s ease;
 	margin-top: 13px;
 	height: 50px;
 }
 .yarb:hover{
-	transform: scale(1.01);
-	background-color: #463066;
+	border: 2px solid;
 }
 
 .scroll-down-right{
@@ -329,6 +330,55 @@ section{
 	margin-top: 13px;
 	height: 50px;
 }
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+	margin-top: 5px;
+	background-color: #7652ab;
+	color: black;
+	font-weight: 900;
+	font-size: 1.3rem;
+	cursor: pointer;
+	padding: 14px;
+	width: 40%;
+	border: none;
+	text-align: center;
+	outline: none;
+	border-radius: 15px;
+	font-family: Source Code Pro,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+}
+.collapsible:hover{
+	background-color: #3b0468;
+}
+
+  
+.content {
+	margin-top: 10px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	text-align: center;
+}
+
+video{
+	width: 70%;
+	height: 70%;
+	border: 10px solid black;
+	
+}
+
+iframe{
+	background-color: #3b0468;
+	border: 2px solid black;
+}
+
+
+
+
+
+
+
 
 
 @keyframes scroll-down-right {
