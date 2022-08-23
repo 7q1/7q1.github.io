@@ -339,10 +339,11 @@ section{
 	background-color: #7652ab;
 	color: black;
 	font-weight: 900;
-	font-size: 1.3rem;
+	font-size: 1.2em;
+	font-weight: 600;
 	cursor: pointer;
 	padding: 14px;
-	width: 40%;
+	width: 32.33%;
 	border: none;
 	text-align: center;
 	outline: none;
@@ -362,12 +363,6 @@ section{
 	text-align: center;
 }
 
-video{
-	width: 70%;
-	height: 70%;
-	border: 10px solid black;
-	
-}
 
 iframe{
 	background-color: #3b0468;
@@ -409,11 +404,22 @@ iframe{
 
 
 @media (max-width: 1023px){
+
+	iframe{
+		margin-top: 2px;
+		width: 800px;
+	}
 	/*   Holders. */
 	.yarb{
 		width: 140%;
 		margin-top: 20px;
 		height: 63px;
+	}
+	.collapsible{
+		width: 140%;
+		height: 63px;
+		font-size: 1.5rem;
+		padding-top: 15px;
 	}
 	.infHolder{
 		width: 140%;
@@ -511,12 +517,18 @@ iframe{
 	.infHolder{
 		width: 90%;
 	}
+	.collapsible{
+		width: 90%;
+	}
 }
 @media (min-width: 1350px) and (max-width: 1650px) {
 	.yarb{
 		width: 70%;
 	}
 	.infHolder{
+		width: 70%;
+	}
+	.collapsible{
 		width: 70%;
 	}
 }
@@ -527,12 +539,18 @@ iframe{
 	.infHolder{
 		width: 60%;
 	}
+	.collapsible{
+		width: 60%;
+	}
 }
 @media (min-width: 1900px){
 	.yarb{
 		width: 40%;
 	}
 	.infHolder{
+		width: 40%;
+	}
+	.collapsible{
 		width: 40%;
 	}
 }
