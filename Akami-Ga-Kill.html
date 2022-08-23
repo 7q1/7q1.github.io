@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
+<html><head>
 	<title>Bader's TV</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 	<link rel="stylesheet" href="style.css">
@@ -13,7 +10,7 @@
 
 
 <body>
-	<div style="display: none;" id="hideAll">&nbsp</div>
+	<div style="display: none;" id="hideAll">&nbsp;</div>
 	<script type="text/javascript">
 		document.getElementById("hideAll").style.display = "block";
 		window.onload = function(){
@@ -24,9 +21,9 @@
 	
 
 	<header>
-		<a href="index.html" id ="ba" class="logo">Bader</a>
+		<a href="/" id="ba" class="logo">Bader</a>
 		<nav class="navigation">
-			<a href="#animes"><i class="fa-solid fa-tv"></i> Bluray Animes</a>
+			<a href="/#animes"><i class="fa-solid fa-tv"></i> Bluray Animes</a>
 			<a href="mailto:youmustbesosocrazy@gmail.com?subject=Im from your website <:"><i class="fa-solid fa-screwdriver-wrench"></i> Send Feedback </a>
 		</nav>
 	</header>
@@ -35,16 +32,53 @@
 	<section class="animes" id="animes">
 
 		 
-		<button class="collapsible" id="btn"> Akami Ga Kill - Episode [1]</button>
+		<button class="collapsible" id="btn-1" is="true" onclick="check('1')"> Akami Ga Kill - Episode [1]</button>
 		<div class="content" id="content1">
-            <iframe title="Akami Ga Kill - 01" id="iframe-1" loading="lazy" src="https://drive.google.com/file/d/1qaqIKjCk8l1rdtuKJJHcWvVXqWJHE_lY/preview" allowfullscreen width="1000" height="562" download></iframe>
+			<iframe title="Akami Ga Kill - 01" id="iframe-1" src="" getsrc="https://drive.google.com/file/d/1qaqIKjCk8l1rdtuKJJHcWvVXqWJHE_lY/preview" allowfullscreen="" width="1000" height="562"></iframe>
 		</div>
 
+		<button class="collapsible" id="btn-2" is="true" onclick="check('2')"> Akami Ga Kill - Episode [1]</button>
+		<div class="content" id="content1">
+			<iframe title="Akami Ga Kill - 01" id="iframe-2" src="" getsrc="https://drive.google.com/file/d/1qaqIKjCk8l1rdtuKJJHcWvVXqWJHE_lY/preview" allowfullscreen="" width="1000" height="562"></iframe>
+		</div>
+
+		<button class="collapsible" id="btn-3" is="true" onclick="check('3')"> Akami Ga Kill - Episode [1]</button>
+		<div class="content" id="content1">
+			<iframe title="Akami Ga Kill - 01" id="iframe-3" src="" getsrc="https://drive.google.com/file/d/1qaqIKjCk8l1rdtuKJJHcWvVXqWJHE_lY/preview" allowfullscreen="" width="1000" height="562"></iframe>
+		</div>
+
+		<button class="collapsible" id="btn-4" is="true" onclick="check('4')"> Akami Ga Kill - Episode [1]</button>
+		<div class="content" id="content1">
+			<iframe title="Akami Ga Kill - 01" id="iframe-4" src="" getsrc="https://drive.google.com/file/d/1qaqIKjCk8l1rdtuKJJHcWvVXqWJHE_lY/preview" allowfullscreen="" width="1000" height="562"></iframe>
+		</div>
+
+		<button class="collapsible" id="btn-5" is="true" onclick="check('5')"> Akami Ga Kill - Episode [1]</button>
+		<div class="content" id="content1">
+			<iframe title="Akami Ga Kill - 01" id="iframe-5" src="" getsrc="https://drive.google.com/file/d/1qaqIKjCk8l1rdtuKJJHcWvVXqWJHE_lY/preview" allowfullscreen="" width="1000" height="562"></iframe>
+		</div>
+
+
+		<script>
+			function check(num){
+				var btn = document.getElementById('btn-' + num);
+				var isActive = btn.getAttribute('class');
+				if (isActive != 'collapsible active'){
+					console.log('OPEN');
+					var iframe = document.getElementById('iframe-' + num);
+					var src = iframe.getAttribute('getsrc');
+					iframe.setAttribute('src', src);
+				}else{
+					console.log('CLOSED');
+					var iframe = document.getElementById('iframe-' + num).setAttribute('src', '');
+				}
+
+			}
+		</script>
 
 	</section> 
 
 
-</body>
+
 
 
 <script>
@@ -64,4 +98,4 @@
 	}
 </script>
 
-</html>
+</body></html>

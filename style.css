@@ -244,8 +244,9 @@ section{
 	height: 50px;
 }
 .yarb:hover{
-	border: 2px solid;
+	background-color: #5c2589;
 }
+
 
 .scroll-down-right{
 	color: #8f196d;
