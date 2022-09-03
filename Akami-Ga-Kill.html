@@ -63,12 +63,12 @@
 				var btn = document.getElementById('btn-' + num);
 				var isActive = btn.getAttribute('class');
 				if (isActive != 'collapsible active'){
-					console.log('OPEN');
+					// On OPEN Animation.
 					var iframe = document.getElementById('iframe-' + num);
 					var src = iframe.getAttribute('getsrc');
 					iframe.setAttribute('src', src);
 				}else{
-					console.log('CLOSED');
+					// On CLOSE Animaton.
 					var iframe = document.getElementById('iframe-' + num).setAttribute('src', '');
 				}
 
