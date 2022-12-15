@@ -79,7 +79,7 @@ section{
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
-	background: url(images/red.jpg) no-repeat;
+	background: url(../images/red.jpg) no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
@@ -154,7 +154,7 @@ section{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background: url(images/mask.jpg) no-repeat;
+	background: url(../images/mask.jpg) no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
@@ -367,7 +367,7 @@ section{
 
 iframe{
 	background-color: #3b0468;
-	border: 2px solid black;
+	border: 0px solid black;
 }
 
 .reveal{
